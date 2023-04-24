@@ -9,6 +9,12 @@ public class TicTac {
         }
     }
 
+    public static void printLoopString(String... strings) {
+        for (String str : strings) {
+            System.out.println(str);
+        }
+    }
+
     public static char[][] initializeGame() {
         char[][] ticTacGame = new char[3][3];
         ticTacGame[0][0] = 'x';
