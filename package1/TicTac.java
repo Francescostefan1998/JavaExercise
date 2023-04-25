@@ -21,6 +21,12 @@ public class TicTac {
         }
     }
 
+    public static void passASting(String... strings) {
+        for (String str : strings) {
+            System.out.println(str);
+        }
+    }
+
     public static void printLoopString(String... strings) {
         for (String str : strings) {
             System.out.println(str);
