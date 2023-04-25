@@ -2,6 +2,18 @@ package package1;
 
 public class TicTac {
     public char[][] ticTacGame = initializeGame();
+    public char[][] trainingTable = initializeTable();
+
+
+    public static char[][] initializeTable() {
+        char[][] trainingTable = new char[2][2];
+        trainingTable[0][0] = 'c';
+        trainingTable[0][1] = 'd';
+        trainingTable[1][0] = 'c';
+        trainingTable[1][1] = 'g';
+
+        return trainingTable;
+    }
 
     public static void printString(String... strings) {
         for (String str : strings) {

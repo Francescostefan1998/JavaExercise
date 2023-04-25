@@ -13,8 +13,9 @@ public class Exercisee {
         System.out.println(days.weekDays[3]);
         System.out.println(numbers.arrayOfInt[2]);
         System.out.println(ticTac.ticTacGame[2][2]);
+        System.out.println(ticTac.trainingTable[1][0]);
         ticTac.printLoopString("hi", "hello", "vismass");
-       // System.out.println(ticTac.printLoopString("ho", "hi"));
+        // System.out.println(ticTac.printLoopString("ho", "hi"));
         // hello
     }
 }
